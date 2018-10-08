@@ -1,0 +1,78 @@
+*, html {
+  margin:0;
+  padding:0;
+  font-family: Arial;
+  line-height: 1.5;
+}
+
+.header{
+	font-size: 40px;
+	text-align: center;
+	font-weight: 700;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.hr-style{
+	height: 1px;
+	border: 0;
+	background: #B3B2B4;
+	margin-bottom: 40px;
+}
+
+.fb-signup{
+	height: 50px;
+	width: 430px;
+	background: #3b5998;
+	color: white;
+	text-align: center;
+	border: 0;
+	border-radius: 40px;
+	-moz-border-radius:40px;
+	-webkit-border-radius:40px;
+	font-weight: 800;
+}
+
+.or{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.or hr{
+	height: 1px;
+	border: 0;
+	background: #B3B2B4;
+	width: 200px;
+
+}
+
+.or div{
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.email{
+	height: 50px;
+	width: 430px;
+	padding-left: 20px;
+}
+
+.dob{
+
+}
+
+#button1{
+	background-color: #111012;
+	color: #C4FFEF;
+	border: 0px;
+	width: 430px;
+	height: 50px;
+	font-weight: 800;
+	border-radius: 40px;
+	-moz-border-radius:40px;
+	-webkit-border-radius:40px;
+}

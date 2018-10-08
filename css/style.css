@@ -1,0 +1,219 @@
+
+/* this is to reset all the padding and margin; and also to set universal font family and line-height. "*, html" means "throughout the webpage" */
+*, html {
+  margin:0;
+  padding:0;
+  font-family: Arial;
+  line-height: 1.5;
+}
+
+.container{
+  width: 90%;             /* to make container occupy 90% of webpage and leave rest 10% as margin; this is to make it look aesthetically pleasing*/
+  margin: auto;           /* to make container align in the center; and 5% margin be kept on either side of container*/
+  overflow: hidden;
+}
+
+.header-showcase {
+  height: 650px;
+  background: linear-gradient(#555257, #B3B2B4);
+  color: #C4FFEF;
+  padding-top: 18px;
+  min-height: 70px;       /*set the minimum size of this section when being responsive too*/
+}
+
+/* change the default properties of anchor tag of HTML */
+.header-showcase a{
+  color: #C4FFEF;         /* to remove the default blue color of anchor tag; and set it instead to our designated text color*/
+  text-decoration: none;  /* to remove the default underline of anchor tag*/
+}
+
+.hover-state:hover{
+  color: #FFFFFF;
+}
+
+/* to reset the default "ul" margin and padding*/
+.header-showcase ul{
+  margin: 0;
+  padding: 0;
+}
+
+.header-showcase li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+.header-showcase .branding{
+  float: left;
+}
+
+.header-showcase nav{
+  float: right;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.showcase{
+  height: 590px;
+}
+
+#div1{
+	text-align: center;
+	font-size: 350%;
+	font-weight: 800;
+	word-spacing: -5px;
+	margin-top: 150px;
+	margin-bottom: 10px;
+}
+
+#div2{
+	text-align: center;
+	font-size: 150%;
+	font-weight: 700;
+	word-spacing: 0px;
+	margin-bottom: 30px;
+}
+
+#div3{
+	text-align: center;
+	margin-bottom: 150px;
+}
+
+.search{
+	text-align: center;
+	width: 250px;
+	height: 50px;
+	padding-left: 30px;
+	font-size: 16px;
+	color: #bcbcbc;
+	background-color: #fcfcfc;
+	border-radius: 40px;
+	-moz-border-radius:40px;
+	-webkit-border-radius:40px;
+	border: 0;
+}
+
+#div4{
+	text-align: center;
+	font-size: 70px;
+}
+
+#div5, #div8{
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 30px;
+	font-weight: 700;
+}
+
+.plans, .books{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.free, .premium{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+.plans-head{
+	font-size: 35px;
+	font-weight: 700;
+}
+
+#div6, #div7{
+	padding-top: 20px;
+	color: #555257;
+}
+
+.get-it{
+	padding-top: 25px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.unshakeable, .subtle, .elon, .ready, .fucked {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	font-weight: 700;
+}
+
+.book-img{
+	height: 170px;
+	border: 1 solid red;
+	object-fit: contain;
+}
+
+.play-now{
+	padding-top: 20px;
+	color: red;
+}
+
+.second-last{
+	background-color: #B3B2B4;
+	color: #C4FFEF;
+	padding-bottom: 100px;
+}
+
+.content{
+	padding-bottom: 90px;
+}
+
+#div9{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 800;
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+
+#button1{
+	background-color: #111012;
+	color: #C4FFEF;
+	border: 0px;
+	width: 250px;
+	height: 50px;
+	font-weight: 800;
+	border-radius: 40px;
+	-moz-border-radius:40px;
+	-webkit-border-radius:40px;
+}
+
+.footer{
+	background-color: #111012;
+	padding-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-bottom: 100px;
+}
+
+.company, .community, .useful-links, {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.social-media{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.footer-footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background-color: #111012;
+	color: #B3B2B4;
+	font-size: 15px;
+	padding-bottom: 100px;
+}
